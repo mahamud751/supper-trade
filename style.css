@@ -4884,7 +4884,7 @@ div#wrapper.open>.offcanvas-mask {
   background-color: #ffa996;
   position: absolute;
   bottom: 12px;
-  left: 130px;
+  left: 15px;
   border-radius: 10px;
   border: none;
 }
@@ -4896,7 +4896,7 @@ div#wrapper.open>.offcanvas-mask {
   background-color: #fa360a;
   position: absolute;
   bottom: 12px;
-  left: 151px;
+  left: 171px;
   border-radius: 10px;
   border: none;
 }
