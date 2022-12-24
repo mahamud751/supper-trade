@@ -14,7 +14,7 @@
 
  */
 
- 
+
 
 /* The Nivo Slider styles */
 
@@ -54,11 +54,11 @@
 
 .nivoSlider {
 
-	position:relative;
+	position: relative;
 
-	width:100%;
+	width: 100%;
 
-	height:auto;
+	height: auto;
 
 	overflow: hidden;
 
@@ -66,11 +66,11 @@
 
 .nivoSlider img {
 
-	position:absolute;
+	position: absolute;
 
-	top:0px;
+	top: 0px;
 
-	left:0px;
+	left: 0px;
 
 	max-width: none;
 
@@ -82,7 +82,7 @@
 
 	display: block !important;
 
-	position: relative !important; 
+	position: relative !important;
 
 	width: 100% !important;
 
@@ -94,31 +94,31 @@
 
 .nivoSlider a.nivo-imageLink {
 
-	position:absolute;
+	position: absolute;
 
-	top:0px;
+	top: 0px;
 
-	left:0px;
+	left: 0px;
 
-	width:100%;
+	width: 100%;
 
-	height:100%;
+	height: 100%;
 
-	border:0;
+	border: 0;
 
-	padding:0;
+	padding: 0;
 
-	margin:0;
+	margin: 0;
 
-	z-index:6;
+	z-index: 6;
 
-	display:none;
+	display: none;
 
-	background:white; 
+	background: white;
 
-	filter:alpha(opacity=0); 
+	filter: alpha(opacity=0);
 
-	opacity:0;
+	opacity: 0;
 
 }
 
@@ -126,31 +126,44 @@
 
 .nivo-slice {
 
-	display:block;
+	display: block;
 
-	position:absolute;
+	position: absolute;
 
-	z-index:5;
+	z-index: 5;
 
-	height:100%;
+	height: 100%;
 
-	top:0;
+	top: 0;
 
 }
 
 .nivo-box {
 
-	display:block;
+	display: block;
 
-	position:absolute;
+	position: absolute;
 
-	z-index:5;
+	z-index: 5;
 
-	overflow:hidden;
+	overflow: hidden;
 
 }
 
-.nivo-box img { display:block; }
+@media only screen and (max-width: 767px) {
+	.nivoSlider img {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		max-width: none;
+		transform: scale(1);
+		height: 162px;
+	}
+}
+
+.nivo-box img {
+	display: block;
+}
 
 
 
@@ -158,19 +171,19 @@
 
 .nivo-caption {
 
-    text-align: center;
+	text-align: center;
 
-	position:absolute;
+	position: absolute;
 
-	left:0px;
+	left: 0px;
 
-	bottom:0px;
+	bottom: 0px;
 
-	color:#fff;
+	color: #fff;
 
-	width:100%;
+	width: 100%;
 
-	z-index:8;
+	z-index: 8;
 
 	padding: 5px 10px;
 
@@ -182,26 +195,30 @@
 
 	-moz-opacity: 0.8;
 
-	filter:alpha(opacity=8);
+	filter: alpha(opacity=8);
 
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
 
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
 
-	box-sizing: border-box;         /* Opera/IE 8+ */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
 
 }
 
 .nivo-caption p {
 
-	padding:5px;
+	padding: 5px;
 
-	margin:0;
+	margin: 0;
 
 }
+
 .nivo-html-caption {
 
-    display:none;
+	display: none;
 
 }
 
@@ -209,25 +226,25 @@
 
 .nivo-directionNav a {
 
-	position:absolute;
+	position: absolute;
 
-	top:45%;
+	top: 45%;
 
-	z-index:9;
+	z-index: 9;
 
-	cursor:pointer;
+	cursor: pointer;
 
 }
 
 .nivo-prevNav {
 
-	left:0px;
+	left: 0px;
 
 }
 
 .nivo-nextNav {
 
-	right:0px;
+	right: 0px;
 
 }
 
@@ -235,7 +252,7 @@
 
 .nivo-controlNav {
 
-	text-align:center;
+	text-align: center;
 
 	padding: 15px 0;
 
@@ -243,13 +260,13 @@
 
 .nivo-controlNav a {
 
-	cursor:pointer;
+	cursor: pointer;
 
 }
 
 .nivo-controlNav a.active {
 
-	font-weight:bold;
+	font-weight: bold;
 
 }
 
@@ -263,9 +280,9 @@ Default Theme
 
 	position: absolute;
 
-	left:0; 
+	left: 0;
 
-	top:0;  
+	top: 0;
 
 	width: 100%;
 
@@ -287,31 +304,31 @@ Default Theme
 
 .nivoSlider a.nivo-imageLink {
 
-    position:absolute;
+	position: absolute;
 
-    top:0px;
+	top: 0px;
 
-    left:0px;
+	left: 0px;
 
-    width:100%;
+	width: 100%;
 
-    height:100%;
+	height: 100%;
 
-    border:0;
+	border: 0;
 
-    padding:0;
+	padding: 0;
 
-    margin:0;
+	margin: 0;
 
-    z-index:6;
+	z-index: 6;
 
-    display:none;
+	display: none;
 
-    background:white; 
+	background: white;
 
-    filter:alpha(opacity=0); 
+	filter: alpha(opacity=0);
 
-    opacity:0;
+	opacity: 0;
 
 }
 
@@ -319,57 +336,59 @@ Default Theme
 
 .nivo-slice {
 
-    display:block;
+	display: block;
 
-    position:absolute;
+	position: absolute;
 
-    z-index:5;
+	z-index: 5;
 
-    height:100%;
+	height: 100%;
 
-    top:0;
+	top: 0;
 
 }
 
 .nivo-box {
 
-    display:block;
+	display: block;
 
-    position:absolute;
+	position: absolute;
 
-    z-index:5;
+	z-index: 5;
 
-    overflow:hidden;
+	overflow: hidden;
 
 }
 
-.nivo-box img { display:block; }
+.nivo-box img {
+	display: block;
+}
 
 .nivo-caption {
 
-  position:absolute;
+	position: absolute;
 
-    left:0; 
+	left: 0;
 
-    top:0;  
+	top: 0;
 
-    color:#fff;
+	color: #fff;
 
-    width:100%;
+	width: 100%;
 
-    height: 100%;
+	height: 100%;
 
-    z-index:6;
+	z-index: 6;
 
 }
 
 .nivo-main-image {
 
-    display: block !important;
+	display: block !important;
 
-    position: relative !important; 
+	position: relative !important;
 
-    width: 100% !important;
+	width: 100% !important;
 
 }
 
@@ -377,53 +396,61 @@ Default Theme
 
 .nivo-slice {
 
-    display:block;
+	display: block;
 
-    position:absolute;
+	position: absolute;
 
-    z-index:5;
+	z-index: 5;
 
-    height:100%;
+	height: 100%;
 
-    top:0;
+	top: 0;
 
 }
 
 .nivo-box {
 
-    display:block;
+	display: block;
 
-    position:absolute;
+	position: absolute;
 
-    z-index:5;
+	z-index: 5;
 
-    overflow:hidden;
+	overflow: hidden;
 
 }
 
 @-webkit-keyframes myfirst {
 
-  from {width: 0;}
+	from {
+		width: 0;
+	}
 
-  to {width: 100%;}
+	to {
+		width: 100%;
+	}
 
- }
+}
 
- @keyframes myfirst {
+@keyframes myfirst {
 
-  from {width: 0;}
+	from {
+		width: 0;
+	}
 
-  to {width: 100%;}
+	to {
+		width: 100%;
+	}
 
- }
+}
 
- .slider-progress.pos_hover{
+.slider-progress.pos_hover {
 
-  -webkit-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
 
-  animation-play-state: paused;
+	animation-play-state: paused;
 
- }
+}
 
 /* ------------------------------
 
@@ -431,17 +458,17 @@ custom slider
 
 ---------------------------------*/
 
-.slider-progress{
+.slider-progress {
 
-	position:absolute;
+	position: absolute;
 
-	top:0;
+	top: 0;
 
-	left:0;
+	left: 0;
 
 	background-color: rgba(255, 255, 255, .7);
 
-	height:5px;
+	height: 5px;
 
 	-webkit-animation: myfirst 5000ms ease-in-out;
 
@@ -453,7 +480,7 @@ custom slider
 
 }
 
-.s-tb{
+.s-tb {
 
 	display: table;
 
@@ -465,24 +492,28 @@ custom slider
 
 }
 
-.s-tb-c{
+.s-tb-c {
 
 	display: table-cell;
 
-    vertical-align: middle;
+	vertical-align: middle;
 
 }
 
-.t-cn{text-align: center}
+.t-cn {
+	text-align: center
+}
 
-.t-lft{text-align: left}
+.t-lft {
+	text-align: left
+}
 
-.t-lfr{text-align: right}
+.t-lfr {
+	text-align: right
+}
 
 /* ------------------------------
 
 slider animation
 
 ---------------------------------*/
-
-
