@@ -5217,7 +5217,7 @@ div#wrapper.open>.offcanvas-mask {
   background-color: #ffa996;
   position: absolute;
   bottom: 12px;
-  left: 228px;
+  left: 380px;
   border-radius: 10px;
   border: none;
 }
@@ -5229,7 +5229,7 @@ div#wrapper.open>.offcanvas-mask {
   background-color: #fa360a;
   position: absolute;
   bottom: 12px;
-  left: 252px;
+  left: 400px;
   border-radius: 10px;
   border: none;
 }
@@ -15333,4 +15333,16 @@ small {
   background: #fffffff6;
   color: #000;
   border-top: 3px solid #000;
+}
+
+
+.span_text {
+  font-size: 30px;
+  color: #FA360A;
+  font-weight: bolder;
+}
+
+.span_text2 {
+  color: #FA360A;
+  font-weight: bolder;
 }
