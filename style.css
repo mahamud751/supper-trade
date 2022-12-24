@@ -15384,3 +15384,7 @@ small {
   color: #FA360A;
   font-weight: bolder;
 }
+
+.logo-mobile {
+  width: 200px;
+}
