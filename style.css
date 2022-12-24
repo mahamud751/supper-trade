@@ -1106,6 +1106,7 @@ h6 {
   margin-bottom: 32px;
 
 
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -1120,6 +1121,7 @@ h6 {
 @media only screen and (max-width: 479px) {
   .slider-area .slider-content .item-paragraph {
     margin-top: 10px;
+    font-size: 20px;
   }
 }
 
