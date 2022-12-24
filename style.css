@@ -1084,6 +1084,7 @@ h6 {
   .slider-area .slider-content .item-title {
     font-size: 30px;
     margin-bottom: 0;
+
   }
 }
 
@@ -1102,13 +1103,16 @@ h6 {
 .slider-area .slider-content .item-paragraph {
   width: 40%;
   margin-bottom: 32px;
-  color: #444444;
+
+
 }
 
 @media only screen and (max-width: 991px) {
   .slider-area .slider-content .item-paragraph {
     width: 80%;
     margin-bottom: 20px;
+    font-size: smaller;
+    font-size: 22px;
   }
 }
 
@@ -1343,9 +1347,33 @@ h6 {
   .s-tb-c {
     padding-top: 20px ! important;
   }
+
+  .slider-area {
+    margin-top: 50px;
+  }
+
+  .item-title {
+    color: #FA360A;
+  }
+
+  .span_text_welcome {
+    color: #FA360A;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+
+  .breadcrumb-wrap {
+    background-image: url("img/breadcrumb1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+
+
   .s-tb-c {
     padding-top: 10px ! important;
   }
@@ -1548,6 +1576,7 @@ h6 {
   width: 40%;
   margin-bottom: 32px;
   color: #444444;
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -3862,9 +3891,10 @@ div#wrapper.open>.offcanvas-mask {
   border-bottom: 1px solid #b2b2b2;
   position: relative;
   text-align: center;
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
+
 }
 
 .mean-container .mean-bar .mobile-menu-nav-back:before {
@@ -4084,7 +4114,7 @@ div#wrapper.open>.offcanvas-mask {
 
 /*------------------- 4.5 Preloader -------------------*/
 #preloader {
-  background: #ffffff url('img/preloader.gif') no-repeat scroll center center;
+  background: #ffffff url('img/logo/logo13.png') no-repeat scroll center center;
   height: 100%;
   left: 0;
   overflow: visible;
@@ -15335,6 +15365,11 @@ small {
   border-top: 3px solid #000;
 }
 
+.span_text_welcome {
+  color: #FA360A;
+  font-weight: bolder;
+  font-size: 70px;
+}
 
 .span_text {
   font-size: 30px;
